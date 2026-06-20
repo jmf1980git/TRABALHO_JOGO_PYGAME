@@ -10,5 +10,6 @@ while True:
     # Check for all events
     for event in pg.event.get():
         if event.type == pg.QUIT:
+            print("Quitting...")
             pg.quit() # Close window
             quit() # End paygame
